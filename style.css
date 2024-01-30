@@ -1,0 +1,68 @@
+body {
+    background-color: #222;
+}
+
+.container {
+    border-radius: 20px;
+    width: 450px;
+    height: 550px;
+    margin: 100px auto 0;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    text-align: center;
+}
+
+.inputSearch {
+    padding: 30px 50px 30px 50px ;
+    border-radius: 10px;
+    background-color: inherit;
+
+}
+
+.input {
+    outline: none;
+    /* border: 1px solid #000706; */
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    background: inherit;
+    background-color: #f8fefc;
+    /* position: relative; */
+
+}
+
+.rainImg {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+h1,h2,p {
+    color: white;
+    margin-bottom: 0;
+}
+
+.windImg , .humidityImg{
+    width: 64px;
+}
+
+
+.details {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.col {
+    display: flex;
+align-items: center;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.weather h1  {
+     margin-bottom: 20px;
+}
